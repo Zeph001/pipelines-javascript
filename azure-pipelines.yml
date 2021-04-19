@@ -24,3 +24,7 @@ steps:
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
+
+- script: |
+    npm start
+  displayName: 'npm start'
